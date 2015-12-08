@@ -14,4 +14,53 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OS_CORE.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OS_CPU_C.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OS_FLAG.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OS_MBOX.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OS_MEM.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OS_MUTEX.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OS_Q.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OS_SEM.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OS_TASK.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OS_TIME.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PC.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="INCLUDES.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OS_CFG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OS_CPU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="uCOS_II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

@@ -78,6 +78,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="OS_CORE.c" />
+    <ClCompile Include="OS_CPU_C.c" />
+    <ClCompile Include="OS_FLAG.c" />
+    <ClCompile Include="OS_MBOX.c" />
+    <ClCompile Include="OS_MEM.c" />
+    <ClCompile Include="OS_MUTEX.c" />
+    <ClCompile Include="OS_Q.c" />
+    <ClCompile Include="OS_SEM.c" />
+    <ClCompile Include="OS_TASK.c" />
+    <ClCompile Include="OS_TIME.c" />
+    <ClCompile Include="PC.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="INCLUDES.h" />
+    <ClInclude Include="OS_CFG.h" />
+    <ClInclude Include="OS_CPU.h" />
+    <ClInclude Include="uCOS_II.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
